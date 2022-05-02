@@ -2,6 +2,26 @@ body {
     margin: 0;
 }
 
+/* Navbar */
+.nav-link {
+    position: relative;  /* places to the right under nav links only */
+}
+
+.nav-link::after {
+    content: "";
+    height: 2px;
+    width: 0;
+    background: lawngreen;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s; 
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+/* End of Nav */
+
 /* Footer */
 .fa-brands {
     color: lawngreen;
