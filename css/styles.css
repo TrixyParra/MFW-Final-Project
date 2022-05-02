@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+/* Footer */
+.fa-brands {
+    color: lawngreen;
+}
+
+.footer-links {
+    text-decoration: underline wavy;
+    text-decoration-color: lawngreen;
+}
+/* End of Footer */
