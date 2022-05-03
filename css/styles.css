@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -9,9 +15,9 @@ body {
 
 .nav-link::after {
     content: "";
-    height: 2px;
+    height: 3px;
     width: 0;
-    background: lawngreen;
+    background: aqua;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -22,13 +28,56 @@ body {
 }
 /* End of Nav */
 
+/* Header */
+.header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.header video {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.text-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.85)), url("../img/black-sand.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: multiply;  /* places video content in text */
+}
+
+.text-box h1 {
+    font-size: 130px;
+    font-weight: 900;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.small-text {
+    font-size: 50px;
+}
+
+.text-box h1, .small-text {
+    line-height: 115px;
+}
+/* End of Header */
+
 /* Footer */
 .fa-brands {
-    color: lawngreen;
+    color: aqua;
 }
 
 .footer-links {
     text-decoration: underline wavy;
-    text-decoration-color: lawngreen;
+    text-decoration-color: aqua;
 }
 /* End of Footer */
