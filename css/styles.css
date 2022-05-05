@@ -12,6 +12,10 @@ body {
 
 
 /* Navbar */
+.navbar {
+    background-color: rgba(0,0,0,0.8);
+}
+
 .nav-link {
     position: relative;  /* places to the right under nav links only */
 }
@@ -29,7 +33,7 @@ body {
 .nav-link:hover::after {
     width: 100%;
 }
-/* End of Nav */
+/* End of Navbar */
 
 
 /* Header */
@@ -76,7 +80,7 @@ body {
 /* End of Header */
 
 
-/* Intro / About me */
+/* Intro / About Me */
 .intro {
     position: relative;
 }
