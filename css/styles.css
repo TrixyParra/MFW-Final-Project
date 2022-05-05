@@ -1,3 +1,4 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 * {
@@ -6,7 +7,9 @@
 
 body {
     margin: 0;
+    box-sizing: border-box;
 }
+
 
 /* Navbar */
 .nav-link {
@@ -27,6 +30,7 @@ body {
     width: 100%;
 }
 /* End of Nav */
+
 
 /* Header */
 .header {
@@ -71,6 +75,25 @@ body {
 }
 /* End of Header */
 
+
+/* Intro / About me */
+.intro {
+    position: relative;
+}
+
+.intro::before {
+    content: "";
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+    z-index: -1;
+}
+/* End of Intro / About Me */
+
+
 /* Footer */
 .fa-brands {
     color: aqua;
@@ -81,3 +104,62 @@ body {
     text-decoration-color: aqua;
 }
 /* End of Footer */
+
+
+/* Media Queries */
+@media (max-width: 767px) {
+    /* Intro / About Me */
+    .intro::before {
+        width: 100%;
+        height: 35%;
+    }
+}
+
+@media (max-width: 642px) {
+    /* Header */
+    .text-box h1 {
+        font-size: 130px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 45px;
+    }
+    .text-box h1, .small-text {
+        line-height: 115px;
+    }
+}
+
+@media (max-width: 632px) {
+    /* Header */
+    .text-box h1 {
+        font-size: 120px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 40px;
+    }
+    .text-box h1, .small-text {
+        line-height: 95px;
+    }
+}
+
+@media (max-width: 557px) {
+    /* Header */
+    .text-box h1 {
+        font-size: 100px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 35px;
+    }
+    .text-box h1, .small-text {
+        line-height: 87px;
+    }
+}
+/* End of Media Queries */
