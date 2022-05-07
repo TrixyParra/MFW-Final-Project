@@ -81,6 +81,11 @@ body {
 
 
 /* Intro / About Me */
+.lower-text {
+    color: #0dcaf0;
+    vertical-align: -15px;
+}
+
 .intro {
     position: relative;
 }
@@ -99,6 +104,15 @@ body {
 
 
 /* Featured Projects */
+.featured-title {
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/black-sand.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .bi-stars {
     color: aqua;
 }
