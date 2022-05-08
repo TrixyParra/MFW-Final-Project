@@ -78,7 +78,7 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.85)), url("../img/black-sand.jpg");
+    background: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,16 +155,22 @@ footer p {
 /* End of Home Page */
 
 
-/* About Page */
+/* About, Projects, Contact Page Header */
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/black-sand.jpg");
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: black;
+    height: 380px;
+}
+
+.h1-background {
+    font-size: 90px;
+    background-image: url("../img/blue-background.jpg");
     background-size: cover;
+    background-clip: text;   
+    -webkit-background-clip: text;  /* background image placed in text */
+    color: transparent;
     font-family: 'Roboto', sans-serif;
 }
-/* End of Projects Page */
+/* End of About, Projects, Contact Page Heade */
 
 
 /* Projects Page */
