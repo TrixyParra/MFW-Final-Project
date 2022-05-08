@@ -143,6 +143,10 @@ body {
 
 
 /* Projects Page */
+.projects:hover {
+    box-shadow: 4px 4px 15px 3px black;
+    transition: 0.3s ease;
+}
 /* End of Projects Page */
 
 
@@ -160,7 +164,6 @@ body {
 
 .input-group-text, .form-control {
     border-color: black;
-    border-width: px;
 }
 /* End of Contact Page */
 
