@@ -1,6 +1,13 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Style+Script&family=Yeseva+One&display=swap');
+/* Font Families
+font-family: 'Roboto', sans-serif; 
+font-family: 'Yeseva One', cursive; 
+font-family: 'Style Script', cursive; 
+*/
 
+
+/* All Pages */
 * {
     box-sizing: border-box;
 }
@@ -10,10 +17,27 @@ body {
     box-sizing: border-box;
 }
 
+h2 {
+    font-family: 'Yeseva One', cursive;
+}
 
+.lower-text {
+    color: #0dcaf0;
+    vertical-align: -35px;
+    font-family: 'Style Script', cursive;
+    font-style: italic;
+    font-size: 68px;
+}
+
+
+/* Home Page */
 /* Navbar */
 .navbar {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-brand {
+    font-family: 'Yeseva One', cursive;
 }
 
 .nav-link {
@@ -81,11 +105,6 @@ body {
 
 
 /* Intro / About Me */
-.lower-text {
-    color: #0dcaf0;
-    vertical-align: -15px;
-}
-
 .intro {
     position: relative;
 }
@@ -120,6 +139,10 @@ body {
 
 
 /* Footer */
+footer p {
+    font-family: 'Yeseva One', cursive;
+}
+
 .fa-brands {
     color: aqua;
 }
@@ -129,6 +152,7 @@ body {
     text-decoration-color: aqua;
 }
 /* End of Footer */
+/* End of Home Page */
 
 
 /* About Page */
@@ -138,6 +162,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
 }
 /* End of Projects Page */
 
@@ -170,7 +195,7 @@ body {
 
 /* Media Queries */
 @media (max-width: 767px) {
-    /* Intro / About Me */
+    /* Home Page Intro / About Me */
     .intro::before {
         width: 100%;
         height: 35%;
@@ -178,7 +203,7 @@ body {
 }
 
 @media (max-width: 642px) {
-    /* Header */
+    /* Home Page Header */
     .text-box h1 {
         font-size: 130px;
         font-weight: 900;
@@ -194,7 +219,7 @@ body {
 }
 
 @media (max-width: 632px) {
-    /* Header */
+    /* Home Page Header */
     .text-box h1 {
         font-size: 120px;
         font-weight: 900;
@@ -209,8 +234,15 @@ body {
     }
 }
 
+@media (max-width: 602px) {
+    /* Projects Page H2 Lower Text */
+    .query-lower-text {
+        font-size: 43px;
+    }
+}
+
 @media (max-width: 557px) {
-    /* Header */
+    /* Home Page Header */
     .text-box h1 {
         font-size: 100px;
         font-weight: 900;
