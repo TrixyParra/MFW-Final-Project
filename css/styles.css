@@ -138,6 +138,17 @@ h2 {
 /* End of Featured Projects */
 
 
+/* Outro */
+.outro {
+    background-color: rgba(127, 255, 212, 0.384);
+}
+
+.outro-stars {
+    color: white;
+}
+/* End of Outro */
+
+
 /* Footer */
 footer p {
     font-family: 'Yeseva One', cursive;
