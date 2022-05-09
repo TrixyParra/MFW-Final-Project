@@ -37,8 +37,13 @@ h2 {
 }
 
 .nav-brand {
+    font-size: 18px;
     font-family: 'Yeseva One', cursive;
 }
+
+    /* .tags {
+        color: aqua;
+    } */
 
 .nav-link {
     position: relative;  /* places to the right under nav links only */
