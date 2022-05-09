@@ -173,6 +173,21 @@ footer p {
 /* End of About, Projects, Contact Page Heade */
 
 
+/* About Page */
+.about-h2 {
+    font-family: 'Style Script', cursive;
+}
+
+.about-text {
+    text-indent: 33px;
+}
+
+.about-heart {
+    color: #0dcaf0;
+}
+/* End of About Page */
+
+
 /* Projects Page */
 .class-title {
     height: 40vh;
