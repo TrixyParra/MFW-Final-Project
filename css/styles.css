@@ -140,7 +140,11 @@ h2 {
 
 /* Outro */
 .outro {
-    background-color: rgba(127, 255, 212, 0.384);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.6)), url("../img/outro-bg.png");
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgba(127, 255, 212, 0.384); */
 }
 
 .outro-stars {
@@ -186,6 +190,9 @@ footer p {
 
 /* About Page */
 .about-h2 {
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: aquamarine;
     font-family: 'Style Script', cursive;
 }
 
