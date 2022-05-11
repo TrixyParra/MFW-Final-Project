@@ -121,7 +121,7 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: aquamarine;
+    background-color: aqua;
     z-index: -1;
 }
 /* End of Intro / About Me */
@@ -168,7 +168,7 @@ footer p {
 }
 
 .footer-links {
-    text-decoration: underline wavy;
+    text-decoration: underline double;
     text-decoration-color: aqua;
 }
 /* End of Footer */
@@ -197,7 +197,7 @@ footer p {
 .about-h2 {
     text-decoration: underline;
     text-decoration-style: double;
-    text-decoration-color: aquamarine;
+    text-decoration-color: aqua;
     font-family: 'Style Script', cursive;
 }
 
@@ -255,6 +255,13 @@ footer p {
     }
 }
 
+@media (max-width: 717px) {
+    /* Projects Page H2 Lower Text */
+    .query-lower-text {
+        font-size: 60px;
+    }
+}
+
 @media (max-width: 642px) {
     /* Home Page Header */
     .text-box h1 {
@@ -268,6 +275,11 @@ footer p {
     }
     .text-box h1, .small-text {
         line-height: 115px;
+    }
+    /* Projects Page H2 Lower Text */
+    .query-lower-text {
+        font-size: 55px;
+        vertical-align: -33px;
     }
 }
 
@@ -285,12 +297,18 @@ footer p {
     .text-box h1, .small-text {
         line-height: 95px;
     }
+    /* Projects Page H2 Lower Text */
+    .query-lower-text {
+        font-size: 50px;
+        vertical-align: -35px;
+    }
 }
 
 @media (max-width: 602px) {
     /* Projects Page H2 Lower Text */
     .query-lower-text {
         font-size: 43px;
+        vertical-align: -27px;
     }
 }
 
@@ -307,6 +325,280 @@ footer p {
     }
     .text-box h1, .small-text {
         line-height: 87px;
+    }
+}
+
+@media (max-width: 478px) {
+    /* Home Page Header */
+    .text-box h1 {
+        font-size: 95px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 30px;
+    }
+    .text-box h1, .small-text {
+        line-height: 80px;
+    }
+    /* Projects Page H2 Lower Text */
+    .query-lower-text {
+        font-size: 35px;
+        vertical-align: -20px;
+    }
+}
+
+@media (max-width: 460px) {
+    /* Extra Pages Header */
+    .h1-background {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 446px) {
+    /* Home Page Header */
+    .text-box h1 {
+        font-size: 95px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 30px;
+    }
+    .text-box h1, .small-text {
+        line-height: 75px;
+    }
+}
+
+@media (max-width: 427px) {
+    /* Home Page Header */
+    .text-box h1 {
+        font-size: 85px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 25px;
+    }
+    .text-box h1, .small-text {
+        line-height: 70px;
+    }
+    /* Home Page Intro / About Me */
+    .intro::before {
+        width: 100%;
+        height: 33%;
+    }
+    /* Extra Pages Header */
+    .h1-background {
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 405px) {
+    /* Projects Page H2 Lower Text */
+    .query-lower-text {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 398px) {
+    /* Home Page Header */
+    .text-box h1 {
+        font-size: 80px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 23px;
+    }
+    .text-box h1, .small-text {
+        line-height: 65px;
+    }
+    /* Extra Pages Header */
+    .h1-background {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 373px) {
+    /* Home Page Header */
+    .text-box h1 {
+        font-size: 75px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 22px;
+    }
+    .text-box h1, .small-text {
+        line-height: 60px;
+    }
+    /* Extra Pages Header */
+    .h1-background {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 359px) {
+    /* Extra Pages Header */
+    .h1-background {
+        font-size: 65px;
+    }
+     /* Projects Page H2 Lower Text */
+     .query-lower-text {
+        font-size: 25px;
+        vertical-align: -15px;
+    }
+}
+
+
+@media (max-width: 351px) {
+    /* Home Page Header */
+    .text-box h1 {
+        font-size: 70px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 20px;
+    }
+    .text-box h1, .small-text {
+        line-height: 55px;
+    }
+    /* Home Page Intro / About Me */
+    .intro::before {
+        width: 100%;
+        height: 30%;
+    }
+}
+
+@media (max-width: 335px) {
+    /* Extra Pages Header */
+    .h1-background {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 328px) {
+    /* Home Page Header */
+    .text-box h1 {
+        font-size: 65px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 18px;
+    }
+    .text-box h1, .small-text {
+        line-height: 51px;
+    }
+    /* Home Page H2 Lower Text */
+    .hp-lower-text {
+        font-size: 65px;
+        vertical-align: -35px;
+    }
+}
+
+@media (max-width: 319px) {
+    /* Home Page H2 Lower Text */
+    .hp-lower-text {
+        font-size: 60px;
+        vertical-align: -33px;
+    }
+    /* Extra Pages Header */
+    .h1-background {
+        font-size: 60px;
+    }
+    /* Projects Page H2 Lower Text */
+    .query-lower-text {
+        font-size: 23px;
+        vertical-align: -10px;
+    }
+}
+
+@media (max-width: 305px) {
+    /* Home Page Header */
+    .text-box h1 {
+        font-size: 60px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 17px;
+    }
+    .text-box h1, .small-text {
+        line-height: 47px;
+    }
+    /* Home Page Intro / About Me */
+    .intro::before {
+        width: 100%;
+        height: 26%;
+    }
+    /* Home Page H2 Lower Text */
+    .hp-lower-text {
+        font-size: 55px;
+        vertical-align: -31px;
+    }
+    /* Extra Pages Header */
+    .h1-background {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 286px) {
+    /* Home Page Header */
+    .text-box h1 {
+        font-size: 55px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 15px;
+    }
+    .text-box h1, .small-text {
+        line-height: 45px;
+    }
+    /* Home Page H2 Lower Text */
+    .hp-lower-text {
+        font-size: 50px;
+        vertical-align: -29px;
+    }
+    /* Extra Pages Header */
+    .h1-background {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 294px) {
+    /* Projects Page H2 Lower Text */
+    .query-lower-text {
+        font-size: 20px;
+        vertical-align: -10px;
+    }
+}
+
+@media (max-width: 275px) {
+    /* Home Page Header */
+    .text-box h1 {
+        font-size: 50px;
+        font-weight: 900;
+        padding-top: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .small-text {
+        font-size: 13px;
+    }
+    .text-box h1, .small-text {
+        line-height: 40px;
     }
 }
 /* End of Media Queries */
